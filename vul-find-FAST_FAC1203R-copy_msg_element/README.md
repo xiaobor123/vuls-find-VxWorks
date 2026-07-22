@@ -198,7 +198,7 @@ Task: 0x83fffe00 "tRootTask"
 The verification video is included as:
 
 ```text
-漏洞验证视频.mp4
+verify.mp4
 ```
 
 # Discoverer
