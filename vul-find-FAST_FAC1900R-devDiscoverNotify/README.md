@@ -3,7 +3,7 @@ Details of the vulnerability found in the Fast router FAC1900R.
 
 | Firmware Name | Version | Download Link |
 |--------------|---------|---------------|
-| FAC1900R | 20190827_2.0.2 | https://service.fastcom.com.cn/detail_download_8635.html |
+| FAC1900R | 20190827_2.0.2 | https://service.fastcom.com.cn/download-379.html |
 
 ## Product Attribution
 
