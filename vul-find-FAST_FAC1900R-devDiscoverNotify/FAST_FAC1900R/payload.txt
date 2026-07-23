@@ -1,0 +1,6 @@
+POST /stok=test/ds HTTP/1.1
+Host: 127.0.0.1:10080
+Content-Type: application/json
+Content-Length: 137
+
+{"method":"set","cloud_config":{"info":{"alias":"BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCDDDDEEEEFFFFGGGG"}}}
