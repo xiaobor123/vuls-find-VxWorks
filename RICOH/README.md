@@ -2,6 +2,8 @@
 
 This directory contains four vulnerability reports that were dynamically reproduced in a full-system firmware rehosting environment. Each report includes the exact analyzed firmware hash, technical root cause, reproduction instructions, execution evidence, security impact, and remediation guidance.
 
+Where the vendor no longer publishes the exact legacy firmware package, the corresponding report links to the authoritative product download page and identifies the analyzed image using its embedded firmware version and SHA-256 digest. A link to a newer release must not be interpreted as the source of the analyzed legacy binary.
+
 | ID | Affected product | Vulnerability | CWE | Validation |
 |---|---|---|---|---|
 | RICOH-01 | RICOH SP 221 firmware sample | HTTP multipart parser infinite loop | CWE-835 | Dynamically reproduced |
@@ -36,4 +38,3 @@ The two multipart findings have the same defect pattern, as do the two request-t
 
 HUST IOTS&P Lab  
 Contact: `m202472188@hust.edu.cn`
-

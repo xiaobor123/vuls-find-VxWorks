@@ -8,11 +8,10 @@ An HTTP multipart/form-data parser in the analyzed RICOH SP 221 firmware enters 
 
 | Field | Value |
 |---|---|
-| Report ID | RICOH-01 |
 | Vendor | RICOH Company, Ltd. |
 | Product | RICOH SP 221-family firmware; exact commercial SKU requires vendor confirmation |
 | Analyzed image | `20030_SP221` |
-| Firmware version (analyzed image) | `V1.06` |
+| Firmware version | `V1.02` |
 | Firmware SHA-256 | `f7142be9b54c962d03a70dac664b50b3f43ab0f5ca3ebaf48727f2677ebad0a1` |
 | Vendor firmware download | [RICOH SP 221 firmware package V1.02 (`z88310L15.exe`)](https://support.ricoh.com/bb/pub_e/dr_ut_e/0001305/0001305922/V102/z88310L15.exe) |
 | Affected component | HTTP multipart/form-data parser |
@@ -76,21 +75,6 @@ python3 poc.py --host <target> --port 80 --path /goform/upload --send
 ```
 
 The exact externally reachable URI may differ by firmware configuration. `/goform/upload` is the path used by the reproduced firmware input.
-
-## Observed result
-
-- Objective samples `82e504615a415f11` and `fcef766a223169bc` repeatedly executed without reaching the configured normal completion point.
-- The emulator was eventually terminated by the external timeout process with `SIGTERM`; this was a hang, not an emulator crash.
-- Static execution analysis located the no-progress loop at `0x1D047C-0x1D0584`.
-- In differential testing, adding only the missing line terminator allowed the request-processing execution to finish normally.
-
-Relevant artifacts:
-
-- [Original objective 82e504615a415f11](./evidence/SP221_82e504615a415f11)
-- [Replay excerpt for 82e504615a415f11](./evidence/SP221_82e504615a415f11_excerpt.txt)
-- [Original objective fcef766a223169bc](./evidence/SP221_fcef766a223169bc)
-- [Replay excerpt for fcef766a223169bc](./evidence/SP221_fcef766a223169bc_excerpt.txt)
-- [Evidence manifest](./evidence/manifest.json)
 
 ## Security impact
 
