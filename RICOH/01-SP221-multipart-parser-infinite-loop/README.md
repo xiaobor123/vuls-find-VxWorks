@@ -11,7 +11,7 @@ An HTTP multipart/form-data parser in the analyzed RICOH SP 221 firmware enters 
 | Vendor | RICOH Company, Ltd. |
 | Product | RICOH SP 221-family firmware; exact commercial SKU requires vendor confirmation |
 | Analyzed image | `20030_SP221` |
-| Firmware version | `V1.02` |
+| Firmware version (analyzed image) | `V1.06` |
 | Firmware SHA-256 | `f7142be9b54c962d03a70dac664b50b3f43ab0f5ca3ebaf48727f2677ebad0a1` |
 | Vendor firmware download | [RICOH SP 221 firmware package V1.02 (`z88310L15.exe`)](https://support.ricoh.com/bb/pub_e/dr_ut_e/0001305/0001305922/V102/z88310L15.exe) |
 | Affected component | HTTP multipart/form-data parser |

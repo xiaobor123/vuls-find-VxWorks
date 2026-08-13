@@ -1,0 +1,1826 @@
+Debug: Logging initialized, should see INFO messages now
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Creating QEMU SYSTEM MODE emulator for architecture: arm
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Binary path: "./20030_C252SF"
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Firmware load address: 0x0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Entry point: 0x0
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol '__fixup_smp' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'miniFsReadFileDirect' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol '_ipAttach' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'muxTkBindCommon' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'muxDevLoad' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'muxIfFuncAdd' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'muxLibInit' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'csum' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'httpDoAuthorize' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'iosWrite' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'iosIoctl' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'mcbMalloc' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'taskDelay' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'getMiniFsOffset' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'ifunit' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'endFindByName' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'mcbAlign' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'webSocketAccept' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'httpCheckGroup' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] sysWdtReboot symbol not found, skipping systemReset hook
+[2026-08-13T11:32:16Z ERROR myfuzzer_arm] Symbol 'inetd' not found, skipping exit hook: Symbol not found
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2357cc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "Jmp2address" at 0x1a8950
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "Jmp2address" at 0x3280a0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x1b1c44
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x188dac
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x1b2554
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x1b14d0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x1b3e90
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x1bbc38
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2f3068
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2de7c0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2aca6c
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x23585c
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x23a3dc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2424d0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2f2cc8
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x238f58
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2f11d8
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x1b2248
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x1b1e5c
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x1b2114
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2f61ac
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x17ff78
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x18e0a4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2c2db4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x24fb00
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2d1360
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x309814
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x31013c
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "TestFinish" at 0x95633c
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm]   Loaded hook: "TestFinish" at 0x955ed8
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Loading 31 hooks from external config: ./hooks_template.json
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Got CPU with index 0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Setting PC to load address: 0x0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Current PC: 0x0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Current SP: 0x0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Current CPSR: 0x400001d3
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Current CPU mode: ARM
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Loading test input from "/tmp/multipart_newline_only"
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] file contents is POST /SetPropertiesOnly.cgi HTTP/1.1
+    Host: 127.0.0.1:10080
+    Content-Type: multipart/form-data; boundary=BOUNDARY
+    Content-Length: 57
+    
+    --BOUNDARY
+    Content-Disposition: form-data; name="prop"
+    
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x404cf2b4 for hook action: Skip
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x404d1250 for hook action: WaitingGdb
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x1b31d4 for hook action: RedirectEarlyPutc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x337c90 for hook action: RedirectIosRead
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x337bf4 for hook action: RedirectIoCreateOrOpen
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x337d40 for hook action: RedirectIosClose
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x1aeee0 for hook action: RedirectMcbFree
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x339410 for hook action: RedirectSocket
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x339438 for hook action: RedirectBind
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x339458 for hook action: RedirectListen
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x339738 for hook action: RedirectSetsockopt
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x339478 for hook action: RedirectAccept
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x3395c8 for hook action: RedirectSelect
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x33951c for hook action: RedirectRecv
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x33955c for hook action: RedirectRecvfrom
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x33948c for hook action: RedirectSend
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x3394cc for hook action: RedirectSendto
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x339424 for hook action: RedirectShutdown
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x2357cc for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x1a8950 for hook action: Jmp2address(3365500, None)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x3280a0 for hook action: Jmp2address(3299680, None)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x1b1c44 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x188dac for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x1b2554 for hook action: BackToCaller(None)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x1b14d0 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x1b3e90 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x1bbc38 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x2f3068 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x2de7c0 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x2aca6c for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x23585c for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x23a3dc for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x2424d0 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x2f2cc8 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x238f58 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x2f11d8 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x1b2248 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x1b1e5c for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x1b2114 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x2f61ac for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x17ff78 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x18e0a4 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x2c2db4 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x24fb00 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x2d1360 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x309814 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x31013c for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x95633c for hook action: TestFinish
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Set breakpoint at 0x955ed8 for hook action: TestFinish
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1779028))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x1b2554
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1779028))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x1b2554
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1779028))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x1b2554
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1785488))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x1b3e90
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b3e90
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1776708))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x1b1c44
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b1c44
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1779028))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x1b2554
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1779028))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x1b2554
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1779028))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x1b2554
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1779028))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x1b2554
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1779028))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x1b2554
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1779028))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x1b2554
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1774800))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x1b14d0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b14d0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3092584))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x2f3068
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x2f3068
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3105196))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x2f61ac
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x2f61ac
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3084760))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x2f11d8
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x2f11d8
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1572728))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x17ff78
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x17ff78
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1630372))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x18e0a4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x18e0a4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x1b (27)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x1b (27)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'uffer length: 1
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26ec
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x5b (91)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x5b (91)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '['
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '[', buffer length: 2
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26fc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x33 (51)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x33 (51)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '3'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '3', buffer length: 3
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x31 (49)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x31 (49)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '1'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '1', buffer length: 4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'm'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'm', buffer length: 5
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x4d (77)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x4d (77)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'M'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'M', buffer length: 6
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26ec
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x33 (51)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x33 (51)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '3'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '3', buffer length: 7
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26fc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x49 (73)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x49 (73)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'I'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'I', buffer length: 8
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x46 (70)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x46 (70)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'F'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'F', buffer length: 9
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x70 (112)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x70 (112)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'p'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'p', buffer length: 10
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 11
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'o'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'o', buffer length: 12
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6c (108)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6c (108)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'l'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'l', buffer length: 13
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'o'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'o', buffer length: 14
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x67 (103)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x67 (103)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'g'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'g', buffer length: 15
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 16
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 17
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 18
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 19
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 20
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 21
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 22
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 23
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 24
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 25
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 26
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x21 (33)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x21 (33)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '!'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '!', buffer length: 27
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 28
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x43 (67)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x43 (67)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'C'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'C', buffer length: 29
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'a'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'a', buffer length: 30
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6e (110)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6e (110)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'n'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'n', buffer length: 31
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x27 (39)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x27 (39)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '''
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ''', buffer length: 32
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 't'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 't', buffer length: 33
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 34
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x63 (99)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x63 (99)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'c'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'c', buffer length: 35
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 36
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 37
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'a'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'a', buffer length: 38
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 't'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 't', buffer length: 39
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 40
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 41
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x4d (77)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x4d (77)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'M'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'M', buffer length: 42
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x33 (51)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x33 (51)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '3'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '3', buffer length: 43
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 44
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x69 (105)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x69 (105)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'i'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'i', buffer length: 45
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6e (110)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6e (110)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'n'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'n', buffer length: 46
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x73 (115)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x73 (115)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 's'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 's', buffer length: 47
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 't'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 't', buffer length: 48
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'a'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'a', buffer length: 49
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6e (110)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6e (110)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'n'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'n', buffer length: 50
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x63 (99)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x63 (99)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'c'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'c', buffer length: 51
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 52
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 53
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x30 (48)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x30 (48)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '0'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '0', buffer length: 54
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0xa (10)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0xa (10)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '
+    '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '
+    ', buffer length: 55
+[31mM3IFprolog           ! Can't create M3 instance 0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully flushed stdout with 55 characters
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Cleared early_putc buffer
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x1b (27)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x1b (27)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'uffer length: 1
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26ec
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x5b (91)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x5b (91)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '['
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '[', buffer length: 2
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26fc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x30 (48)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x30 (48)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '0'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '0', buffer length: 3
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'm'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'm', buffer length: 4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1609132))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x188dac
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x188dac
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x1b (27)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x1b (27)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'uffer length: 5
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26ec
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x5b (91)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x5b (91)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '['
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '[', buffer length: 6
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26fc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x33 (51)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x33 (51)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '3'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '3', buffer length: 7
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x31 (49)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x31 (49)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '1'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '1', buffer length: 8
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'm'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'm', buffer length: 9
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x55 (85)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x55 (85)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'U'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'U', buffer length: 10
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26ec
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x53 (83)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x53 (83)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'S'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'S', buffer length: 11
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26fc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x42 (66)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x42 (66)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'B'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'B', buffer length: 12
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x48 (72)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x48 (72)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'H'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'H', buffer length: 13
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x73 (115)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x73 (115)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 's'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 's', buffer length: 14
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 15
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 16
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x76 (118)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x76 (118)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'v'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'v', buffer length: 17
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 18
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 19
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x41 (65)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x41 (65)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'A'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'A', buffer length: 20
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x64 (100)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x64 (100)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'd'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'd', buffer length: 21
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x64 (100)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x64 (100)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'd'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'd', buffer length: 22
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x53 (83)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x53 (83)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'S'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'S', buffer length: 23
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 24
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 25
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x76 (118)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x76 (118)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'v'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'v', buffer length: 26
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x69 (105)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x69 (105)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'i'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'i', buffer length: 27
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x63 (99)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x63 (99)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'c'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'c', buffer length: 28
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 29
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 30
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x21 (33)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x21 (33)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '!'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '!', buffer length: 31
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 32
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x43 (67)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x43 (67)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'C'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'C', buffer length: 33
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'a'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'a', buffer length: 34
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6e (110)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6e (110)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'n'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'n', buffer length: 35
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x27 (39)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x27 (39)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '''
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ''', buffer length: 36
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 't'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 't', buffer length: 37
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 38
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'a'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'a', buffer length: 39
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6c (108)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6c (108)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'l'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'l', buffer length: 40
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6c (108)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6c (108)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'l'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'l', buffer length: 41
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'o'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'o', buffer length: 42
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x63 (99)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x63 (99)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'c'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'c', buffer length: 43
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 44
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x73 (115)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x73 (115)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 's'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 's', buffer length: 45
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 46
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 47
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x76 (118)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x76 (118)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'v'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'v', buffer length: 48
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x69 (105)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x69 (105)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'i'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'i', buffer length: 49
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x63 (99)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x63 (99)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'c'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'c', buffer length: 50
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 51
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 52
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 53
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 54
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x63 (99)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x63 (99)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'c'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'c', buffer length: 55
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'o'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'o', buffer length: 56
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 57
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x64 (100)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x64 (100)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'd'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'd', buffer length: 58
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0xa (10)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0xa (10)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '
+    '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '
+    ', buffer length: 59
+[0m[31mUSBHserverAddService ! Can't alloc service record
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully flushed stdout with 59 characters
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Cleared early_putc buffer
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x1b (27)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x1b (27)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'uffer length: 1
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26ec
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x5b (91)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x5b (91)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '['
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '[', buffer length: 2
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26fc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x30 (48)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x30 (48)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '0'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '0', buffer length: 3
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'm'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'm', buffer length: 4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x1b (27)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x1b (27)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'uffer length: 5
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26ec
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x5b (91)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x5b (91)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '['
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '[', buffer length: 6
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26fc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x33 (51)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x33 (51)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '3'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '3', buffer length: 7
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x31 (49)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x31 (49)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '1'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '1', buffer length: 8
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'm'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'm', buffer length: 9
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x41 (65)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x41 (65)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'A'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'A', buffer length: 10
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26ec
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x75 (117)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x75 (117)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'u'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'u', buffer length: 11
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26fc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 't'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 't', buffer length: 12
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'o'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'o', buffer length: 13
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'm'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'm', buffer length: 14
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'o'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'o', buffer length: 15
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x75 (117)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x75 (117)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'u'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'u', buffer length: 16
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6e (110)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6e (110)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'n'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'n', buffer length: 17
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 't'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 't', buffer length: 18
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 19
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 20
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x50 (80)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x50 (80)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'P'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'P', buffer length: 21
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 22
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'o'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'o', buffer length: 23
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6c (108)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6c (108)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'l'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'l', buffer length: 24
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'o'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'o', buffer length: 25
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x67 (103)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x67 (103)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'g'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'g', buffer length: 26
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 27
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 28
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 29
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 30
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x21 (33)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x21 (33)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '!'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '!', buffer length: 31
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 32
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x43 (67)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x43 (67)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'C'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'C', buffer length: 33
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'a'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'a', buffer length: 34
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6e (110)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6e (110)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'n'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'n', buffer length: 35
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x27 (39)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x27 (39)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '''
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ''', buffer length: 36
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 't'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 't', buffer length: 37
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 38
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 39
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 40
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x67 (103)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x67 (103)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'g'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'g', buffer length: 41
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x69 (105)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x69 (105)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'i'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'i', buffer length: 42
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x73 (115)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x73 (115)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 's'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 's', buffer length: 43
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 't'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 't', buffer length: 44
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 45
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 46
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 47
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x66 (102)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x66 (102)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'f'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'f', buffer length: 48
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'o'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'o', buffer length: 49
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 50
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x20 (32)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: ' '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: ' ', buffer length: 51
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x55 (85)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x55 (85)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'U'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'U', buffer length: 52
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x53 (83)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x53 (83)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'S'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'S', buffer length: 53
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x42 (66)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x42 (66)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'B'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'B', buffer length: 54
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x48 (72)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x48 (72)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'H'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'H', buffer length: 55
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x2f (47)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x2f (47)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '/'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '/', buffer length: 56
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x4d (77)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x4d (77)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'M'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'M', buffer length: 57
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'a'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'a', buffer length: 58
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x73 (115)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x73 (115)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 's'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 's', buffer length: 59
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x73 (115)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x73 (115)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 's'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 's', buffer length: 60
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x53 (83)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x53 (83)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'S'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'S', buffer length: 61
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x74 (116)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 't'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 't', buffer length: 62
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6f (111)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'o'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'o', buffer length: 63
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x72 (114)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'r'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'r', buffer length: 64
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x61 (97)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'a'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'a', buffer length: 65
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x67 (103)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x67 (103)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'g'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'g', buffer length: 66
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x65 (101)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'e'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'e', buffer length: 67
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x1b (27)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x1b (27)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'uffer length: 68
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26ec
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x5b (91)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x5b (91)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '['
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '[', buffer length: 69
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b26fc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x30 (48)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x30 (48)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: '0'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: '0', buffer length: 70
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2710
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1782228))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Reading char_value from R0: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Converted to byte: 0x6d (109)
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Character is ASCII: 'm'
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Added character to buffer: 'm', buffer length: 71
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Executing BLR instruction: setting PC to LR value 0x1b2724
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully executed BLR instruction at 0x1b31d4
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2316236))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x2357cc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x2357cc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3008448))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x2de7c0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x2de7c0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2804332))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x2aca6c
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x2aca6c
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3091656))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x2f2cc8
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x2f2cc8
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2368720))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x2424d0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x2424d0
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2330456))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x238f58
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x238f58
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2316380))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x23585c
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x23585c
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2335708))
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] BackToCaller call at 0x23a3dc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x23a3dc
+[2026-08-13T11:32:16Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1817656))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1bbc38
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1bbc38
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1739088))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Jmp2address call at 0x1a8950, jumping to 0x335a7c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully jumped to address 0x335a7c at 0x1a8950
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3184660))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x309814
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x309814
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1778248))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b2248
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b2248
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3211580))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x31013c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x31013c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3309728))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Jmp2address call at 0x3280a0, jumping to 0x325960
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully jumped to address 0x325960 at 0x3280a0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3380240))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting socket call at 0x339410
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] socket: domain=0x2, type=0x1, protocol=0x0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] socket: created socket with fd=11, domain=2, type=1, protocol=0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3381048))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting setsockopt call at 0x339738
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] setsockopt: sockfd=0xb, level=0xffff, optname=0x3, optval=0x1906ba0, optlen=0x4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] setsockopt: no mapping found for vxworks_optname=0x3, returning error
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] but we skip this setsockopt here even it failed
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3380280))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting bind call at 0x339438
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: sockfd=0xb, addr=0x1906ba4, addrlen=0x1c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: raw sockaddr bytes: [2, 0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: family_be (network byte order): 0x200, family (host byte order): 0x200
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: Detected port <=1000, redirecting to port +10000
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: port_net (host byte order): 0x2760 (port: 10080)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: port_host (net byte order): 0x6027 (port: 24615)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: ip_net (host byte order): 0x0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: ip_host (net byte order): 0x0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: ip_str (dotted decimal): 0.0.0.0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: full sockaddr_in structure:
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind:   sin_family: 0x200 (512)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind:   sin_port: 0x6027 (network order), 0x2760 (host order, port: 10080)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind:   sin_addr.s_addr: 0x0 (network order), 0x0 (host order)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: libc::bind returned: -1
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: Forcing return_value to 0 to bypass bind errors
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: saved port 10080 (host order) for sockfd 11
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind failed: errno=97, Address family not supported by protocol (os error 97)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: Final binding information:
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind:   return_value=0, bound to port=10080 (host order)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind:   addr=0x0 (network order), 0x0 (host order)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind:   addr_str (dotted decimal): 0.0.0.0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3380312))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting listen call at 0x339458
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] listen: sockfd=0xb, backlog=0x5, additional_param=0x1c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] listen: return_value=0, sockfd=11, backlog=5
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3380680))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting select call at 0x3395c8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: nfds=0xc(12), readfds=0x1906d64, writefds=0x1906d50, exceptfds=0x1906d3c, timeout=0x251d754
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] readfds raw bytes: [00, 08, 00, 00]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] readfds: [11]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] writefds: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] exceptfds: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: simulating activity on fd 11 (port 10080)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: return_value=1
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] readfds after select: [11]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] writefds after select: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] exceptfds after select: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3380344))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting accept call at 0x339478
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] accept: read addrlen value: 28
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] accept: wrote simulated client addr to memory, actual_len=16
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] accept: added simulated fd=100 to SOCKET_FD_MAP with port=Some(10080)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] accept: simulated return_value=100, sockfd=11
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3380680))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting select call at 0x3395c8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: nfds=0x65(101), readfds=0x1906d64, writefds=0x1906d50, exceptfds=0x1906d3c, timeout=0x252331c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] readfds raw bytes: [00, 08, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 10, 00, 00, 00]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] readfds: [11, 100]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] writefds: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] exceptfds: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: simulating activity on fd 11 (port 10080)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: simulating activity on fd 100 (port 10080)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: return_value=2
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] readfds after select: [11, 100]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] writefds after select: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] exceptfds after select: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3380344))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting accept call at 0x339478
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] accept: Fuzz mode enabled and fd=100 exists in SOCKET_FD_MAP, returning error -1
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3380508))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting recv call at 0x33951c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] recv: sockfd=0x64, buf=0x2523424, len=0x7ff, flags=0x0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] recv: recv content is POST /SetPropertiesOnly.cgi HTTP/1.1
+    Host: 127.0.0.1:10080
+    Content-Type: multipart/form-data; boundary=BOUNDARY
+    Content-Length: 57
+    
+    --BOUNDARY
+    Content-Disposition: form-data; name="prop"
+    
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] recv (hex): [50, 4f, 53, 54, 20, 2f, 53, 65, 74, 50, 72, 6f, 70, 65, 72, 74, 69, 65, 73, 4f, 6e, 6c, 79, 2e, 63, 67, 69, 20, 48, 54, 54, 50, 2f, 31, 2e, 31, 0d, 0a, 48, 6f, 73, 74, 3a, 20, 31, 32, 37, 2e, 30, 2e, 30, 2e, 31, 3a, 31, 30, 30, 38, 30, 0d, 0a, 43, 6f, 6e, 74, 65, 6e, 74, 2d, 54, 79, 70, 65, 3a, 20, 6d, 75, 6c, 74, 69, 70, 61, 72, 74, 2f, 66, 6f, 72, 6d, 2d, 64, 61, 74, 61, 3b, 20, 62, 6f, 75, 6e, 64, 61, 72, 79, 3d, 42, 4f, 55, 4e, 44, 41, 52, 59, 0d, 0a, 43, 6f, 6e, 74, 65, 6e, 74, 2d, 4c, 65, 6e, 67, 74, 68, 3a, 20, 35, 37, 0d, 0a, 0d, 0a, 2d, 2d, 42, 4f, 55, 4e, 44, 41, 52, 59, 0d, 0a, 43, 6f, 6e, 74, 65, 6e, 74, 2d, 44, 69, 73, 70, 6f, 73, 69, 74, 69, 6f, 6e, 3a, 20, 66, 6f, 72, 6d, 2d, 64, 61, 74, 61, 3b, 20, 6e, 61, 6d, 65, 3d, 22, 70, 72, 6f, 70, 22, 0d, 0a]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] recv: wrote 194 bytes of fuzz data to guest memory
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(9790268))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] TestFinish at 0x95633c, TEST_COMPLETED set to true

@@ -1,0 +1,7 @@
+POST /SetPropertiesOnly.cgi HTTP/1.1
+Host: 127.0.0.1:10080
+Content-Type: multipart/form-data; boundary=BOUNDARY
+Content-Length: 55
+
+--BOUNDARY
+Content-Disposition: form-data; name="prop"

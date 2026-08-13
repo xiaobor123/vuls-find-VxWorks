@@ -1,0 +1,828 @@
+Debug: Logging initialized, should see INFO messages now
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Creating QEMU SYSTEM MODE emulator for architecture: arm
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Binary path: "./sp_3500"
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Firmware load address: 0x500
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Entry point: 0x500
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol '__fixup_smp' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'miniFsReadFileDirect' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol '_ipAttach' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'muxTkBindCommon' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'muxDevLoad' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'muxIfFuncAdd' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'muxLibInit' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'csum' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'httpDoAuthorize' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'early_putc' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'iosWrite' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'iosRead' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'ioCreateOrOpen' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'iosClose' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'iosIoctl' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'getMiniFsOffset' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'ifunit' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'endFindByName' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'mcbAlign' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'webSocketAccept' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'httpCheckGroup' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] sysWdtReboot symbol not found, skipping systemReset hook
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm] Symbol 'exit' not found, skipping hook: Symbol not found
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x245284
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2493ac
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x206a80
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2180d4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "Jmp2address" at 0x1face0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "Jmp2address" at 0x2f9544
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2846c0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "Jmp2address" at 0x2d103c
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm]   Skipping hook entry HookEntryConfig { name: Some("FCSPI_ConfigureClock"), address: None, action: "BackToCaller", return_value: Some(0), target: None, a1: None, instruction_size: 4, port: None }: Symbol 'FCSPI_ConfigureClock' not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm]   Skipping hook entry HookEntryConfig { name: Some("CP15_WriteSCTLR"), address: None, action: "BackToCaller", return_value: None, target: None, a1: None, instruction_size: 4, port: None }: Symbol 'CP15_WriteSCTLR' not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm]   Skipping hook entry HookEntryConfig { name: Some("socHwPeripheralInitWait"), address: None, action: "BackToCaller", return_value: Some(0), target: None, a1: None, instruction_size: 4, port: None }: Symbol 'socHwPeripheralInitWait' not found
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x278ff8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2457f0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x245d54
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm]   Skipping hook entry HookEntryConfig { name: Some("flash_nvram_init"), address: None, action: "BackToCaller", return_value: Some(0), target: None, a1: None, instruction_size: 4, port: None }: Symbol 'flash_nvram_init' not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm]   Skipping hook entry HookEntryConfig { name: Some("pipe_system_init"), address: None, action: "BackToCaller", return_value: Some(0), target: None, a1: None, instruction_size: 4, port: None }: Symbol 'pipe_system_init' not found
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x1f93b4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x257074
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm]   Skipping hook entry HookEntryConfig { name: Some("WaitEngineInitFinish"), address: None, action: "BackToCaller", return_value: Some(0), target: None, a1: None, instruction_size: 4, port: None }: Symbol 'WaitEngineInitFinish' not found
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x2413ac
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x1bb30c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "BackToCaller" at 0x285c80
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm]   Skipping hook entry HookEntryConfig { name: Some("WaitAndSelectPrimaryNetIf"), address: None, action: "BackToCaller", return_value: Some(0), target: None, a1: None, instruction_size: 4, port: None }: Symbol 'WaitAndSelectPrimaryNetIf' not found
+[2026-08-13T11:32:19Z ERROR myfuzzer_arm]   Skipping hook entry HookEntryConfig { name: Some("configPrimaryNetIf"), address: None, action: "BackToCaller", return_value: Some(0), target: None, a1: None, instruction_size: 4, port: None }: Symbol 'configPrimaryNetIf' not found
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "TestFinish" at 0x37c47c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm]   Loaded hook: "TestFinish" at 0x37cd64
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Loading 20 hooks from external config: ./hooks_template.json
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Got CPU with index 0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Setting entry point to 0x500
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Entry point set successfully
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Current PC: 0x500
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Current SP: 0x0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Current CPSR: 0x400001d3
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Current CPU mode: ARM
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Loading test input from "/tmp/multipart_newline_only"
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] file contents is POST /SetPropertiesOnly.cgi HTTP/1.1
+    Host: 127.0.0.1:10080
+    Content-Type: multipart/form-data; boundary=BOUNDARY
+    Content-Length: 57
+    
+    --BOUNDARY
+    Content-Disposition: form-data; name="prop"
+    
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x404cf2b4 for hook action: Skip
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x404d1250 for hook action: WaitingGdb
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x1ced18 for hook action: RedirectMcbMalloc
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x1cefa8 for hook action: RedirectMcbFree
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x1fe914 for hook action: RedirectTaskDelay
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x280534 for hook action: RedirectSocket
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x280544 for hook action: RedirectBind
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x280568 for hook action: RedirectListen
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x2807b8 for hook action: RedirectSetsockopt
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x28058c for hook action: RedirectAccept
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x28069c for hook action: RedirectSelect
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x28061c for hook action: RedirectRecv
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x280650 for hook action: RedirectRecvfrom
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x280594 for hook action: RedirectSend
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x2805c8 for hook action: RedirectSendto
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x28053c for hook action: RedirectShutdown
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x245284 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x2493ac for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x206a80 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x1b6b04 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x2180d4 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x1face0 for hook action: Jmp2address(2479352, None)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x2f9544 for hook action: Jmp2address(2630136, None)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x2846c0 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x2d103c for hook action: Jmp2address(2951520, None)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x278ff8 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x245ae4 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x2457f0 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x245d54 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x1f93b4 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x257074 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x2413ac for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x1bb30c for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x285c80 for hook action: BackToCaller(Some(0))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x37c47c for hook action: TestFinish
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Set breakpoint at 0x37cd64 for hook action: TestFinish
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2380420))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x245284
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x245284
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2382564))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2382564))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2383188))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x245d54
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x245d54
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2382564))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2382564))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2383188))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x245d54
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x245d54
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2382564))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2397100))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x2493ac
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x2493ac
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 786432
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42100008
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x24d638) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 768000
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x421c0010
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x24d660) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227b818
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227bc20
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227c028
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227c430
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227c838
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227cc40
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227d048
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227d450
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227d858
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227dc60
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227e068
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227e470
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227e878
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227ec80
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227f088
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227f490
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227f898
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4227fca0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422800a8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422804b0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422808b8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42280cc0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422810c8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422814d0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422818d8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42281ce0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422820e8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422824f0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422828f8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42282d00
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42283108
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42283510
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42283918
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42283d20
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42284128
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42284530
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42284938
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42284d40
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42285148
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42285550
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42285958
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42285d60
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42286168
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42286570
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42286978
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42286d80
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42287188
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42287590
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42287998
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42287da0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422881a8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422885b0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422889b8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42288dc0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422891c8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422895d0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x422899d8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42289de0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4228a1e8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4228a5f0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4228a9f8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4228ae00
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4228b208
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1024
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4228b610
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c18bc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 2580
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4228ba18
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c1974) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 460
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4228c438
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x2c1974) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2124416))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x206a80
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x206a80
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 733184
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4228c610
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1e009c) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 733184
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4233f618
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1e009c) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 733184
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x423f2620
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1e009c) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 733184
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x424a5628
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1e009c) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 733184
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42558630
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1e009c) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2453620))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x257074
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x257074
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2364332))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x2413ac
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x2413ac
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2069428))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1f93b4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1f93b4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2592760))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x278ff8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x278ff8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 20
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4260b638
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1cf394) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 307291
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4260b678
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1cf394) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 8268
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x426566e0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1cf394) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 8268
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42658738
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1cf394) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2195668))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x2180d4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x2180d4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 8268
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4265a790
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1cf394) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 81996
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4265c7e8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1cf394) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 156
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42670840
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1cf394) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1815308))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1bb30c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1bb30c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 156
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x426708e8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1cf394) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 156
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42670990
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1cf394) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 96
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42670a38
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1cf394) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 240
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42670aa0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1cf394) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 320512
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x42670b98
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1c249c) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 320512
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x426befa0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x1c24d4) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2075872))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Jmp2address call at 0x1face0, jumping to 0x25d4f8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully jumped to address 0x25d4f8 at 0x1face0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3118404))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Jmp2address call at 0x2f9544, jumping to 0x2821f8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully jumped to address 0x2821f8 at 0x2f9544
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2645120))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x285c80
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x285c80
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1796868))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x1b6b04
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2382564))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x245ae4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4270d3a8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x24cdd8) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4270d3e8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x24cdfc) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 1
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4270d428
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x24ce1c) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 2
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4270d468
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x24ce3c) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4270d4a8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x24ce60) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(1895704))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc called with size: 4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc allocated memory at 0x4270d4e8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::mcb_hook] mcbMalloc: set PC to LR (0x24ce84) to return
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3118404))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Jmp2address call at 0x2f9544, jumping to 0x2821f8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully jumped to address 0x2821f8 at 0x2f9544
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2645120))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x285c80
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x285c80
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2639552))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] BackToCaller call at 0x2846c0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully set R0 to value 0x0 at 0x2846c0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2953276))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Jmp2address call at 0x2d103c, jumping to 0x2d0960
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Successfully jumped to address 0x2d0960 at 0x2d103c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2622772))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting socket call at 0x280534
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] socket: domain=0x2, type=0x1, protocol=0x0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] socket: created socket with fd=11, domain=2, type=1, protocol=0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2623416))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting setsockopt call at 0x2807b8
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] setsockopt: sockfd=0xb, level=0xffff, optname=0x3, optval=0x12514fc, optlen=0x4
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] setsockopt: no mapping found for vxworks_optname=0x3, returning error
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] but we skip this setsockopt here even it failed
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2622788))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting bind call at 0x280544
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: sockfd=0xb, addr=0x1251500, addrlen=0x1c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: raw sockaddr bytes: [2, 0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: family_be (network byte order): 0x200, family (host byte order): 0x200
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: Detected port <=1000, redirecting to port +10000
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: port_net (host byte order): 0x2760 (port: 10080)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: port_host (net byte order): 0x6027 (port: 24615)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: ip_net (host byte order): 0x0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: ip_host (net byte order): 0x0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: ip_str (dotted decimal): 0.0.0.0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: full sockaddr_in structure:
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind:   sin_family: 0x200 (512)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind:   sin_port: 0x6027 (network order), 0x2760 (host order, port: 10080)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind:   sin_addr.s_addr: 0x0 (network order), 0x0 (host order)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: libc::bind returned: -1
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: Forcing return_value to 0 to bypass bind errors
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: saved port 10080 (host order) for sockfd 11
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind failed: errno=97, Address family not supported by protocol (os error 97)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind: Final binding information:
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind:   return_value=0, bound to port=10080 (host order)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind:   addr=0x0 (network order), 0x0 (host order)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] bind:   addr_str (dotted decimal): 0.0.0.0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2622824))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting listen call at 0x280568
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] listen: sockfd=0xb, backlog=0x5, additional_param=0x1c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] listen: return_value=0, sockfd=11, backlog=5
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2623132))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting select call at 0x28069c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: nfds=0xc(12), readfds=0x12516a0, writefds=0x125168c, exceptfds=0x1251678, timeout=0x1
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] readfds raw bytes: [00, 08, 00, 00]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] readfds: [11]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] writefds: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] exceptfds: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: simulating activity on fd 11 (port 10080)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: return_value=1
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] readfds after select: [11]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] writefds after select: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] exceptfds after select: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2622860))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting accept call at 0x28058c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] accept: read addrlen value: 28
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] accept: wrote simulated client addr to memory, actual_len=16
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] accept: added simulated fd=100 to SOCKET_FD_MAP with port=Some(10080)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] accept: simulated return_value=100, sockfd=11
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2623132))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting select call at 0x28069c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: nfds=0x65(101), readfds=0x12516a0, writefds=0x125168c, exceptfds=0x1251678, timeout=0x2
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] readfds raw bytes: [00, 08, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 10, 00, 00, 00]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] readfds: [11, 100]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] writefds: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] exceptfds: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: simulating activity on fd 100 (port 10080)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: simulating activity on fd 11 (port 10080)
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] select: return_value=2
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] readfds after select: [11, 100]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] writefds after select: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] exceptfds after select: []
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2622860))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting accept call at 0x28058c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] accept: Fuzz mode enabled and fd=100 exists in SOCKET_FD_MAP, returning error -1
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(2623004))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] Redirecting recv call at 0x28061c
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] recv: sockfd=0x64, buf=0xe3f9e0, len=0x7ff, flags=0x0
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] recv: recv content is POST /SetPropertiesOnly.cgi HTTP/1.1
+    Host: 127.0.0.1:10080
+    Content-Type: multipart/form-data; boundary=BOUNDARY
+    Content-Length: 57
+    
+    --BOUNDARY
+    Content-Disposition: form-data; name="prop"
+    
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] recv (hex): [50, 4f, 53, 54, 20, 2f, 53, 65, 74, 50, 72, 6f, 70, 65, 72, 74, 69, 65, 73, 4f, 6e, 6c, 79, 2e, 63, 67, 69, 20, 48, 54, 54, 50, 2f, 31, 2e, 31, 0d, 0a, 48, 6f, 73, 74, 3a, 20, 31, 32, 37, 2e, 30, 2e, 30, 2e, 31, 3a, 31, 30, 30, 38, 30, 0d, 0a, 43, 6f, 6e, 74, 65, 6e, 74, 2d, 54, 79, 70, 65, 3a, 20, 6d, 75, 6c, 74, 69, 70, 61, 72, 74, 2f, 66, 6f, 72, 6d, 2d, 64, 61, 74, 61, 3b, 20, 62, 6f, 75, 6e, 64, 61, 72, 79, 3d, 42, 4f, 55, 4e, 44, 41, 52, 59, 0d, 0a, 43, 6f, 6e, 74, 65, 6e, 74, 2d, 4c, 65, 6e, 67, 74, 68, 3a, 20, 35, 37, 0d, 0a, 0d, 0a, 2d, 2d, 42, 4f, 55, 4e, 44, 41, 52, 59, 0d, 0a, 43, 6f, 6e, 74, 65, 6e, 74, 2d, 44, 69, 73, 70, 6f, 73, 69, 74, 69, 6f, 6e, 3a, 20, 66, 6f, 72, 6d, 2d, 64, 61, 74, 61, 3b, 20, 6e, 61, 6d, 65, 3d, 22, 70, 72, 6f, 70, 22, 0d, 0a]
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm::fs_operations] recv: wrote 194 bytes of fuzz data to guest memory
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] qemu.run() returned: Ok(Breakpoint(3654780))
+[2026-08-13T11:32:19Z INFO  myfuzzer_arm] TestFinish at 0x37c47c, TEST_COMPLETED set to true
