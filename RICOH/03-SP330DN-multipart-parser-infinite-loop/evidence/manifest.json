@@ -1,0 +1,32 @@
+[
+  {
+    "file": "SP330_3c01b44127a203f6",
+    "type": "original objective",
+    "sha256": "ee8007b75f5cf5eeced44189d617beedd8c61d682d6ba2cb95a1640d9e65a857",
+    "size": 233
+  },
+  {
+    "file": "SP330_669669f620078fcc",
+    "type": "original objective",
+    "sha256": "3dc4403712bf851aabb7f47185a3c85b37686b23e980f779d2400b094241238a",
+    "size": 251
+  },
+  {
+    "file": "SP330_3c01b44127a203f6_excerpt.txt",
+    "type": "replay log excerpt",
+    "sha256": "cd4dfa535b7747b1bf0080c6967b3f214be4b69d22cdc9c6218209e3824e1b79",
+    "size": 1344
+  },
+  {
+    "file": "SP330_669669f620078fcc_excerpt.txt",
+    "type": "replay log excerpt",
+    "sha256": "647ed7826f195112b799df3735343512f4ff38c78b30c3ae66e3fefb65e566c6",
+    "size": 1349
+  },
+  {
+    "file": "SP330_3c_newline_excerpt.txt",
+    "type": "replay log excerpt",
+    "sha256": "206386c7f1797b6628f27fb196775f750c28b9df796b6f1b241e2bf3bbd4b238",
+    "size": 1144
+  }
+]

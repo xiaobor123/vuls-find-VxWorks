@@ -1,0 +1,8 @@
+POST /goform/upload HTTP/1.1
+Host: 127.0.0.1
+Content-Type: multipart/form-data; boundary=----RICOH-BOUNDARY
+Content-Length: 83
+Connection: close
+
+------RICOH-BOUNDARY
+Content-Disposition: form-data; name="file"; filename="a.bin"

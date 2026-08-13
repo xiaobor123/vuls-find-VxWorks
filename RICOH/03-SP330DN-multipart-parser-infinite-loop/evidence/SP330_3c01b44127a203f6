@@ -1,0 +1,7 @@
+POST /goform/upload HTTP/1.1
+Host: 127.0.0.1
+Content-Type: multipart/form-data; boundary=----BOUNDARY
+Content-Length: 100
+
+------BOUNDARY
+Content-Disposition: form-data; name="file"; pe: apélicatiTn/x-www-form-urlencoBOUNDARY--

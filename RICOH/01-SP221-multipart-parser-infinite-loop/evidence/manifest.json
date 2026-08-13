@@ -1,0 +1,26 @@
+[
+  {
+    "file": "SP221_82e504615a415f11",
+    "type": "original objective",
+    "sha256": "d05651b8ea63c88761d1e62c30287c392ad911da71ff25c2fbf8f0cef288b1df",
+    "size": 233
+  },
+  {
+    "file": "SP221_fcef766a223169bc",
+    "type": "original objective",
+    "sha256": "bc24e5427e59f87be9239ffeb2490f9d775177a0fff5cf4d95e1b28853862f46",
+    "size": 226
+  },
+  {
+    "file": "SP221_82e504615a415f11_excerpt.txt",
+    "type": "replay log excerpt",
+    "sha256": "88ecb87277b3e37078f017de84f06a7e0f4abbb9fa6a29764575a0464d951ffe",
+    "size": 1345
+  },
+  {
+    "file": "SP221_fcef766a223169bc_excerpt.txt",
+    "type": "replay log excerpt",
+    "sha256": "d9f6a4ba63960c8d2979d45aee3c8bc1f1ce25cdae6b97b4ac0a223cbda2a234",
+    "size": 1357
+  }
+]

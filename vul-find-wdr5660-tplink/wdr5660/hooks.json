@@ -1,0 +1,27 @@
+{
+  "hooks": [
+    {"name":"sysClkEnable","action":"BackToCaller","return_value":0,"instruction_size":4},
+    {"address":"0x80001C2C","action":"Jmp2address","target":"vxTaskEntry","instruction_size":4},
+    {"address": "0x801D65F8", "action": "RedirectIoCreateOrOpen", "instruction_size": 4},
+    {"address": "0x8022EC30", "action": "Jmp2address", "target": "0x8022EC48", "instruction_size": 4},
+    {"address": "0x8004b5f4", "action": "Jmp2address", "target": "0x8004b604", "instruction_size": 4},
+    {"name":"pppInit","action":"BackToCaller","return_value":0,"instruction_size":4},
+    {"name":"pppoeInit","action":"BackToCaller","return_value":0,"instruction_size":4},
+    {"name":"httpDoAuthorize","action":"BackToCaller","return_value":0,"instruction_size":4},
+
+    {"name":"get_alias_name","action":"BackToCaller","return_value":0,"instruction_size":4},
+    {"name":"get_device_name","action":"BackToCaller","return_value":0,"instruction_size":4},
+    {"name":"get_device_model","action":"BackToCaller","return_value":0,"instruction_size":4},
+    {"name":"get_hwver","action":"BackToCaller","return_value":0,"instruction_size":4},
+    {"name":"get_app_ver","action":"BackToCaller","return_value":0,"instruction_size":4},
+    {"name":"update_advertisement_frame","action":"BackToCaller","return_value":0,"instruction_size":4},
+
+    {"name":"protocol_handler","action":"BackToCaller","return_value":0,"instruction_size":4},
+    {"name":"ms_idle_handler","action":"BackToCaller","return_value":0,"instruction_size":4},
+    {"name":"devDiscoveryFlushLan","action":"BackToCaller","return_value":0,"instruction_size":4},
+
+    {"name":"exit","action":"Jmp2address","target":"0x8004B2B4","a1":"0x802FE27C","port":1060,"instruction_size":4},
+    {"name":"exit","action":"Jmp2address","target":"0x80265148","port":60449,"instruction_size":4},
+    {"name":"exit","action":"Jmp2address","target":"0x8025037C","instruction_size":4}
+  ]
+}

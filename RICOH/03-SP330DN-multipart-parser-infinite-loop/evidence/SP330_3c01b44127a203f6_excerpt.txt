@@ -1,0 +1,16 @@
+[2026-08-12T18:15:46Z INFO  myfuzzer_arm]   Loaded hook: "Jmp2address" at 0x53914
+[2026-08-12T18:15:46Z INFO  myfuzzer_arm]   Loaded hook: "TestFinish" at 0x5f2354
+[2026-08-12T18:15:46Z INFO  myfuzzer_arm]   Loaded hook: "TestFinish" at 0x538f4
+[2026-08-12T18:15:46Z INFO  myfuzzer_arm] Loading 31 hooks from external config: ./hooks_template.json
+[2026-08-12T18:15:46Z INFO  myfuzzer_arm] Set breakpoint at 0x53914 for hook action: Jmp2address(342316, None)
+[2026-08-12T18:15:46Z INFO  myfuzzer_arm] Set breakpoint at 0x5f2354 for hook action: TestFinish
+[2026-08-12T18:15:46Z INFO  myfuzzer_arm] Set breakpoint at 0x538f4 for hook action: TestFinish
+[2026-08-12T18:15:46Z INFO  myfuzzer_arm] handle_qemu_execution called
+[2026-08-12T18:16:06Z INFO  myfuzzer_arm::fs_operations] recv: sockfd=0x0, buf=0x1df6840, len=0x10000, flags=0x0
+[2026-08-12T18:16:06Z INFO  myfuzzer_arm::fs_operations] recv: recv content is POST /goform/upload HTTP/1.1
+    Host: 127.0.0.1
+[2026-08-12T18:16:06Z INFO  myfuzzer_arm] handle_qemu_execution called
+: terminating on signal 15 from pid 3549744 (timeout)
+[2026-08-12T18:16:06Z INFO  myfuzzer_arm] qemu.run() returned: Ok(End(HostSignal(SigTerm)))
+[2026-08-12T18:16:06Z INFO  myfuzzer_arm] Emulation terminated by host signal: SigTerm
+[2026-08-12T18:16:06Z INFO  myfuzzer_arm] Emulation exited with kind: Crash
