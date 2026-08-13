@@ -18,6 +18,15 @@ The analyzed RICOH SP 221 firmware copies an attacker-controlled HTTP request ta
 | CWE | CWE-121: Stack-based Buffer Overflow |
 | Attack vector | Network, if the HTTP service is reachable |
 
+## Test files
+
+- [Analyzed firmware image: `20030_SP221`](./firmware/20030_SP221)  
+  SHA-256: `f7142be9b54c962d03a70dac664b50b3f43ab0f5ca3ebaf48727f2677ebad0a1`
+- [Recovered symbol table: `symbols.txt`](./firmware/symbols.txt)  
+  SHA-256: `4ced414340407c7d3e7586d6d13c195f86e80172764812ac7b77b4ab9e4129ca`
+
+The symbol table contains the recovered function-name-to-address mapping used during analysis and rehosting. It is not an original vendor debug-symbol package.
+
 ## Technical details
 
 The vulnerable function, identified as `HTTPfetchResource`, begins at `0x1CEB4C`. At `0x1CF070`, it invokes `strcpy` to copy the parsed HTTP resource path into a fixed-size local stack buffer. No destination-capacity or source-length check is performed.

@@ -18,6 +18,15 @@ The HTTP multipart/form-data parser in the analyzed RICOH SP 330DN firmware ente
 | CWE | CWE-835: Loop with Unreachable Exit Condition |
 | Attack vector | Network, if the affected HTTP handler is reachable |
 
+## Test files
+
+- [Analyzed firmware image: `20030_SP330DN`](./firmware/20030_SP330DN)  
+  SHA-256: `764771134ca39b2d334ce94592768c8931d4415e64d39b3a4e5899e020af7868`
+- [Recovered symbol table: `symbols.txt`](./firmware/symbols.txt)  
+  SHA-256: `0d59bf0b9d590c3d945bdd24aa93eb9043df2645ced9073d877400fbc7bb4373`
+
+The symbol table contains the recovered function-name-to-address mapping used during analysis and rehosting. It is not an original vendor debug-symbol package.
+
 ## Technical details
 
 At `0x5F75F4`, the parser searches the current multipart header for a newline. If the search fails, execution follows the path below and re-enters the parsing loop:

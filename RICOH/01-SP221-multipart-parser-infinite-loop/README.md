@@ -18,6 +18,15 @@ An HTTP multipart/form-data parser in the analyzed RICOH SP 221 firmware enters 
 | CWE | CWE-835: Loop with Unreachable Exit Condition |
 | Attack vector | Network, if the affected HTTP handler is reachable |
 
+## Test files
+
+- [Analyzed firmware image: `20030_SP221`](./firmware/20030_SP221)  
+  SHA-256: `f7142be9b54c962d03a70dac664b50b3f43ab0f5ca3ebaf48727f2677ebad0a1`
+- [Recovered symbol table: `symbols.txt`](./firmware/symbols.txt)  
+  SHA-256: `4ced414340407c7d3e7586d6d13c195f86e80172764812ac7b77b4ab9e4129ca`
+
+The symbol table contains the recovered function-name-to-address mapping used during analysis and rehosting. It is not an original vendor debug-symbol package.
+
 ## Technical details
 
 The multipart parser searches the current part header for a newline at address `0x1D04C4`. When the search returns `NULL`, the error path does not reject the malformed request and does not advance the parser cursor. Control flow follows:

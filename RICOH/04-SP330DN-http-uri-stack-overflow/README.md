@@ -18,6 +18,15 @@ The analyzed RICOH SP 330DN firmware copies an attacker-controlled HTTP request 
 | CWE | CWE-121: Stack-based Buffer Overflow |
 | Attack vector | Network, if the HTTP service is reachable |
 
+## Test files
+
+- [Analyzed firmware image: `20030_SP330DN`](./firmware/20030_SP330DN)  
+  SHA-256: `764771134ca39b2d334ce94592768c8931d4415e64d39b3a4e5899e020af7868`
+- [Recovered symbol table: `symbols.txt`](./firmware/symbols.txt)  
+  SHA-256: `0d59bf0b9d590c3d945bdd24aa93eb9043df2645ced9073d877400fbc7bb4373`
+
+The symbol table contains the recovered function-name-to-address mapping used during analysis and rehosting. It is not an original vendor debug-symbol package.
+
 ## Technical details
 
 The affected HTTP resource-processing function begins near `0x5F5708`. At `0x5F5E9C`, the function calls `strcpy` with the parsed HTTP request target as the source and a local stack address as the destination. The implementation does not validate that the request target fits in the destination buffer.
