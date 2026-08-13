@@ -12,7 +12,9 @@ An HTTP multipart/form-data parser in the analyzed RICOH SP 221 firmware enters 
 | Vendor | RICOH Company, Ltd. |
 | Product | RICOH SP 221-family firmware; exact commercial SKU requires vendor confirmation |
 | Analyzed image | `20030_SP221` |
+| Firmware version (analyzed image) | `V1.06` |
 | Firmware SHA-256 | `f7142be9b54c962d03a70dac664b50b3f43ab0f5ca3ebaf48727f2677ebad0a1` |
+| Vendor firmware download | [RICOH SP 221 firmware package V1.02 (`z88310L15.exe`)](https://support.ricoh.com/bb/pub_e/dr_ut_e/0001305/0001305922/V102/z88310L15.exe) |
 | Affected component | HTTP multipart/form-data parser |
 | Vulnerability type | Infinite loop / denial of service |
 | CWE | CWE-835: Loop with Unreachable Exit Condition |
@@ -26,6 +28,8 @@ An HTTP multipart/form-data parser in the analyzed RICOH SP 221 firmware enters 
   SHA-256: `4ced414340407c7d3e7586d6d13c195f86e80172764812ac7b77b4ab9e4129ca`
 
 The symbol table contains the recovered function-name-to-address mapping used during analysis and rehosting. It is not an original vendor debug-symbol package.
+
+The public vendor package linked above is V1.02. The analyzed image identifies itself as V1.06 and is included with this report; the link is therefore a product download reference rather than an assertion that the public package is byte-identical to the analyzed image.
 
 ## Technical details
 

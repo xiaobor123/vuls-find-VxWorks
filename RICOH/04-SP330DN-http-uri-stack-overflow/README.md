@@ -12,7 +12,9 @@ The analyzed RICOH SP 330DN firmware copies an attacker-controlled HTTP request 
 | Vendor | RICOH Company, Ltd. |
 | Product | RICOH SP 330DN |
 | Analyzed image | `20030_SP330DN` |
+| Firmware version (analyzed image) | `V1.11` |
 | Firmware SHA-256 | `764771134ca39b2d334ce94592768c8931d4415e64d39b3a4e5899e020af7868` |
+| Vendor product page | [RICOH SP 330DN downloads](https://support.ricoh.com/bb/html/dr_ut_e/apc/model/sp330dn/sp330dnen.htm) |
 | Affected component | HTTP resource-request processing |
 | Vulnerability type | Stack-based buffer overflow |
 | CWE | CWE-121: Stack-based Buffer Overflow |
